@@ -7,7 +7,7 @@ Variables Used:
 The endpoint used for project.
 e.g. ```api.xyz.com```
 
-* 
+
 ***
 ## One Time Server Setup
 * #####  Install PHP:
@@ -99,4 +99,5 @@ LANG=en_US.UTF-8
 1. ```sudo find {{ENDPOINT}} -type d -exec chmod 775 {} \;```
 2. ```sudo find {{ENDPOINT}} -type f -exec chmod 664 {} \;```
 
+* #####  ENV Setup (Changes project to project)
 
