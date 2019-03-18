@@ -73,9 +73,9 @@ LANG=en_US.UTF-8
 
 * #####  Create Virtual Host
 1. ```cd /etc/apache2/sites-available/```
-2. ```sudo nano twister.devslane.com.conf```
-3. ```Save Virtual Host and save```
-4. ```sudo a2ensite twister.devslane.com.conf```
+2. ```sudo nano {{ENDPOINT}}.conf```
+3. ```Configure and save```
+4. ```sudo a2ensite {{ENDPOINT}}.conf```
 5. ```sudo service apache2 restart```
 
 * #####  Composer Install in Project
