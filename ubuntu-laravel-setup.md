@@ -86,14 +86,15 @@ LANG=en_US.UTF-8
 * #####  Directory Permissions
 ###### below are to be run from {{ENDPOINT}} directory
 1. ```sudo chown -R ubuntu:htmlowners storage``` 
-2. ```sudo chmod -R g+s storage```
-3. ```sudo chmod -R g+s bootstrap/cache```
-4. ```sudo chmod -R u+s storage```
-5. ```sudo chmod -R u+s bootstrap/cache```
-6. ```sudo find storage -type d -exec chmod 775 {} \;```
-7. ```sudo find storage -type f -exec chmod 664 {} \;```
-8. ```sudo find bootstrap/cache -type d -exec chmod 775 {} \;```
-9. ```sudo find bootstrap/cache -type f -exec chmod 664 {} \;```
+2. ```sudo chown -R ubuntu:htmlowners bootstrap/cache``` 
+3. ```sudo chmod -R g+s storage```
+4. ```sudo chmod -R g+s bootstrap/cache```
+5. ```sudo chmod -R u+s storage```
+6. ```sudo chmod -R u+s bootstrap/cache```
+7. ```sudo find storage -type d -exec chmod 775 {} \;```
+8. ```sudo find storage -type f -exec chmod 664 {} \;```
+9. ```sudo find bootstrap/cache -type d -exec chmod 775 {} \;```
+10. ```sudo find bootstrap/cache -type f -exec chmod 664 {} \;```
 
 ###### below are to be run from /var/www directory
 1. ```sudo find {{ENDPOINT}} -type d -exec chmod 775 {} \;```
