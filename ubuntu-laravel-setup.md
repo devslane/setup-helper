@@ -74,7 +74,7 @@ LANG=en_US.UTF-8
 * #####  Create Virtual Host
 1. ```cd /etc/apache2/sites-available/```
 2. ```sudo nano {{ENDPOINT}}.conf```
-3. ```Configure and save```
+3. ```Configure and save``` [Sample File Here](https://github.com/devslane/setup-helper/blob/master/api.xyz.com.conf)
 4. ```sudo a2ensite {{ENDPOINT}}.conf```
 5. ```sudo service apache2 restart```
 
