@@ -102,3 +102,11 @@ LANG=en_US.UTF-8
 
 * #####  ENV Setup (Changes project to project)
 
+
+
+
+## Video Casts
+* [Move Domain from Godaddy to AWS Route53](https://youtu.be/2xRAjDJr9r8)
+* [Backend Setup Part 1: Intro](https://youtu.be/9bXKIH5xvSw)
+* [Backend Setup Part 2: EC2 Setup + Deployment](https://youtu.be/dqHd1nGkT6I)
+* [Backend Setup Part 3: RDS Setup](https://youtu.be/BKWLAaeLgO0)
