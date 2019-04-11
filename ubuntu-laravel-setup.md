@@ -31,6 +31,16 @@ e.g. ```api.xyz.com```
 10. ```sudo phpenmod gd```
 11. ```sudo apt-get install php7.1-mysql```
 
+
+* #####  Configure PHP upload size
+1. ```sudo nano /etc/php/7.1/apache2/php.ini```
+
+Set the following variables as required.
+```
+upload_max_filesize = 10M
+post_max_size = 10M
+```
+
 * #####  Install Composer
 1. ```curl -sS https://getcomposer.org/installer | sudo php -- --install-dir=/usr/local/bin --filename=composer```
 
