@@ -15,25 +15,25 @@ e.g. ```api.xyz.com```
 2. ```sudo apt-get update```
 3. ```sudo apt-get install apache2```
 4. ```sudo apt-get install gzip```
-5. ```sudo apt-get install php7.1```
-6. ```sudo apt install zip unzip php7.1-zip```
+5. ```sudo apt-get install php7.3```
+6. ```sudo apt install zip unzip php7.3-zip```
 
 * #####  Install PHP Plugins
-1. ```sudo apt-get install php7.1-curl```
+1. ```sudo apt-get install php7.3-curl```
 2. ```sudo phpenmod curl```
-3. ```sudo apt-get install php7.1-xmlrpc```
+3. ```sudo apt-get install php7.3-xmlrpc```
 4. ```sudo phpenmod xmlrpc```
-5. ```sudo apt-get install php7.1-mbstring```
+5. ```sudo apt-get install php7.3-mbstring```
 6. ```sudo phpenmod mbstring```
-7. ```sudo apt-get install php7.1-dom```
+7. ```sudo apt-get install php7.3-dom```
 8. ```sudo phpenmod dom```
-9. ```sudo apt-get install php7.1-gd```
+9. ```sudo apt-get install php7.3-gd```
 10. ```sudo phpenmod gd```
-11. ```sudo apt-get install php7.1-mysql```
+11. ```sudo apt-get install php7.3-mysql```
 
 
 * #####  Configure PHP upload size
-1. ```sudo nano /etc/php/7.1/apache2/php.ini```
+1. ```sudo nano /etc/php/7.3/apache2/php.ini```
 
 Set the following variables as required.
 ```
